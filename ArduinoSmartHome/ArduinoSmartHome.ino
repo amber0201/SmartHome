@@ -21,6 +21,8 @@ void loop() {
   }
   else{
     Serial.println("LOW");
+    digitalWrite(12 ,LOW);
+    digitalWrite(11, LOW);
   }
 
 }
